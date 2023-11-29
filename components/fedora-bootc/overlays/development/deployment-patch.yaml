@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: fedora-bootc
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/centos-bootc-tenant/centos-bootc/fedora-bootc@sha256:880e20b9959a1fcc6037a0e928936a49194e8a9dc40ebe91974b4262549aaedb
+        name: container-image
+        resources: {}
+status: {}
