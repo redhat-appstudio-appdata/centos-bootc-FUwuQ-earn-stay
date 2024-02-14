@@ -4,6 +4,7 @@ metadata:
   creationTimestamp: null
   name: centos-bootc
 spec:
+  replicas: 1
   selector: {}
   strategy: {}
   template:
@@ -11,7 +12,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/centos-bootc-tenant/centos-bootc/centos-bootc@sha256:747a4d0b7cce70366130b32eaa8fa88ed7191ab993c1dc3c0146242c9c2c3adb
+      - image: quay.io/redhat-user-workloads/centos-bootc-tenant/centos-bootc/centos-bootc@sha256:66f40f4f00641ebdf3bcf56cbc48096f9d6a97393f5a4153c8b2ae4d1e5794f6
         name: container-image
         resources: {}
 status: {}
