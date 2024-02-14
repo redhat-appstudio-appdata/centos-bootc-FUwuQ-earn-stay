@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: centos-bootc
     app.kubernetes.io/part-of: centos-bootc
-  name: centos-bootczbxb
+  name: centos-bootcc2wg
 spec:
   port:
     targetPort: 8080
